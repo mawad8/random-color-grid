@@ -1,0 +1,24 @@
+body{
+    height: 500px;
+    background-color: rgb(180, 30, 63);
+    text-align: center;
+
+}
+
+#all{
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows:  50px 50px 50px 50px;
+    grid-gap: 5px;
+    justify-content: center;
+    
+}
+.kolo div{
+    background-color: antiquewhite;
+}
+.trans{
+    transition: 1s;
+}
